@@ -3,7 +3,7 @@ session_start();
 
 if (!isset($_SESSION['username']) || !isset($_SESSION['role'])) {
     $_SESSION['username'] = 'admin';  
-    $_SESSION['role'] = 'admin';      
+    $_SESSION['role'] = 'admin';   
 }
 
 require_once '../config/db.php'; 
